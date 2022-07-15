@@ -3,6 +3,8 @@ import cors from "cors";
 import { ping } from "./endpoints/ping";
 import { getUsers } from "./endpoints/getUsers";
 import { getTasks } from "./endpoints/getTasks";
+import { getTaskResponsable } from "./endpoints/getTaskResponsable";
+import { postTaskResponsable } from "./endpoints/postTaskResponsable";
 
 const app = express();
 
@@ -23,4 +25,7 @@ app.get("/users", getUsers)
 app.get("/tasks", getTasks)
 
 // GET Usuário responsável por uma tarefa
-app.get("/tasks/:taskId/users", getTasks)
+app.get("/tasks/:taskId/users", getTaskResponsable)
+
+// POST Adicionar usuário responsável por uma tarefa
+app.post("/tasks/:taskId/users", postTaskResponsable)

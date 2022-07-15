@@ -29,7 +29,7 @@ const createTables = async () => {
 
             CREATE TABLE IF NOT EXISTS ${table_responsibles}(
                 userId VARCHAR(255) NOT NULL,
-                taskId VARCHAR(255) NOT NULL,
+                taskId VARCHAR(255) UNIQUE NOT NULL,
                 FOREIGN KEY (userId) REFERENCES ${table_users}(id),
                 FOREIGN KEY (taskId) REFERENCES ${table_tasks}(id)
             );
