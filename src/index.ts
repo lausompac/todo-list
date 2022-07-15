@@ -5,6 +5,9 @@ import { getUsers } from "./endpoints/getUsers";
 import { getTasks } from "./endpoints/getTasks";
 import { getTaskResponsable } from "./endpoints/getTaskResponsable";
 import { postTaskResponsable } from "./endpoints/postTaskResponsable";
+import { putUserNickname } from "./endpoints/putUserNickname";
+import { putTaskStatus } from "./endpoints/putsTaskStatus";
+import { deleteTask } from "./endpoints/deleteTask";
 
 const app = express();
 
@@ -29,3 +32,12 @@ app.get("/tasks/:taskId/users", getTaskResponsable)
 
 // POST Adicionar usuário responsável por uma tarefa
 app.post("/tasks/:taskId/users", postTaskResponsable)
+
+// PUT Editar apelido de um usuário
+app.put("/users/:userId", putUserNickname)
+
+// PUT Editar status de uma tarefa
+app.put("/tasks/:taskId", putTaskStatus)
+
+// DELETE tarefa
+app.delete("/tasks/:taskId", deleteTask)
