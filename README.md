@@ -1,11 +1,11 @@
 # TO DO LIST ✅
 Projeto de backend da Labenu
 
-# Documentação
+## Documentação
 
 https://documenter.getpostman.com/view/21135076/UzQvrjYq
 
-# Funcionalidades do Projeto
+## ⚙️ Funcionalidades do Projeto
 
 O sistema conta com recursos que envolvem o gerenciamento de cadastro de usuários e também de cadastro de tarefas. 
 
@@ -25,7 +25,7 @@ Cada tarefa será representada pelas seguintes informações:
 - Status de execução da tarefa, que pode alternar entre 3 valores distintos: ”TO DO”, “DOING” e “DONE”.
 - Id do usuário que criou a tarefa.
 
-# Tecnologias utilizadas
+## 🛠 Tecnologias utilizadas
 
 - Typescript;
 - Express;
@@ -33,7 +33,7 @@ Cada tarefa será representada pelas seguintes informações:
 - Knex; 
 - SQL
 
-# Aplicações utilizadas
+## 🚀 Aplicações utilizadas
 - VSCode;
 - Beekeeper-Studio;
 - Postman;
