@@ -45,7 +45,7 @@ Cada tarefa será representada pelas seguintes informações:
 <a href="https://github.com/lausmpc">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/101334115?v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Laura Campos</b></sub></a> <a href="https://github.com/lausmpc" title="github"></a>
+ <sub><b>Laura Campos</b></sub></a> <a href="https://github.com/lausompac" title="github"></a>
  <br>
  <br>
 
