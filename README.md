@@ -13,14 +13,14 @@ https://lau-to-do-list.herokuapp.com/
 
 O sistema conta com recursos que envolvem o gerenciamento de cadastro de usuários e também de cadastro de tarefas. 
 
-Cada usuário será representado pelas seguintes informações:
+Cada usuário é representado pelas seguintes informações:
 
 - Id do usuário.
 - Nome do usuário.
 - Apelido (nickname) do usuário.
 - E-mail do usuário.
 
-Cada tarefa será representada pelas seguintes informações:
+Cada tarefa é representada pelas seguintes informações:
 
 - Id da tarefa.
 - Título da tarefa.
