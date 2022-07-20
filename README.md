@@ -5,6 +5,10 @@ Projeto de backend da Labenu
 
 https://documenter.getpostman.com/view/21135076/UzQvrjYq
 
+## Deploy
+
+https://lau-to-do-list.herokuapp.com/
+
 ## ⚙️ Funcionalidades do Projeto
 
 O sistema conta com recursos que envolvem o gerenciamento de cadastro de usuários e também de cadastro de tarefas. 
